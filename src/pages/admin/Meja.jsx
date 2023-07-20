@@ -21,7 +21,7 @@ export default function Meja() {
 
   const GenerateQRCode = () => {
     QRCode.toDataURL(
-      `https://fnb-table.vercel.app/${nomorMeja}/menu`,
+      `https://mlk-web-harjos.vercel.app/${nomorMeja}/menu`,
       {
         width: 300,
         height: 300,
