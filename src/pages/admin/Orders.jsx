@@ -1,6 +1,7 @@
 import React from "react";
 import Swal from "sweetalert2";
 import convertToRupiah from "../../lib/convertToRupiah";
+import textToNumber from "../../lib/textToNumber";
 
 export default function Orders() {
   const [orderData, setOrderData] = React.useState([]);
@@ -78,7 +79,7 @@ export default function Orders() {
                     <tr key={index}>
                       <td className="px-4 py-3">
                         <div className="flex items-center text-sm">
-                          {item.id}
+                          {textToNumber(item.nama_customer)}
                         </div>
                       </td>
                       <td className="px-4 py-3">
