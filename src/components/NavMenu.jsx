@@ -25,9 +25,9 @@ export default function NavMenu() {
         <Link to="/cart">
           <IoCartOutline size="32px" className="ml-auto" />
         </Link>
-        {cart.length > 0 ? (
-          <span className="w-2 h-2 bg-red-600 z-1 rounded-full absolute -top-1 right-0 animate-ping"></span>
-        ) : null}
+        {cart.length > 0 ? <span className="h-5 w-5 bg-red-600 z-1 rounded-full absolute -top-1 right-0 text-white text-center text-sm">
+          {cart.length}
+        </span> : null}
       </div>
     </div>
   );

@@ -47,7 +47,7 @@ export default function DetailMenu() {
             <div className="">
               <img
                 alt="Les Paul"
-                src={`https://harjos.draf.app/api/menu/${products.gambar}`}
+                src={`http://127.0.0.1:8000/api/menu/${products.gambar}`}
                 className="w-64 mx-auto rounded-xl object-cover"
               />
             </div>

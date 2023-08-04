@@ -16,6 +16,7 @@ import Meja from "./pages/admin/Meja";
 import Protected from "./middleware/Protected";
 import Review from "./pages/Review";
 import Pivot from "./pages/Pivot";
+import ListReview from "./pages/UserReviews";
 // import Profit from "./pages/Profit";
 // import { AuthProvider } from "./context/UserContext";
 
@@ -46,6 +47,7 @@ function App() {
         <Route path="/order" element={<Order />} />
         <Route path="/review" element={<Review />} />
         <Route path="/section" element={<Pivot />} />
+        <Route path="/list-review" element={<ListReview />} />
       </Route>
       <Route path="/admin" element={<Layout />}>
         <Route
