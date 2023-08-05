@@ -11,7 +11,7 @@ function Login() {
       email: e.target.email.value,
       password: e.target.password.value,
     };
-    fetch("http://127.0.0.1:8000/api/login", {
+    fetch("https://harjos.draf.app/api/login", {
       method: "POST",
       body: JSON.stringify(formData),
       headers: {
