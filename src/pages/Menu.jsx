@@ -48,14 +48,14 @@ export default function Menu() {
               );
             }
           })}
-          <Link
+          {/* <Link
             to="/list-review"
             className="absolute bottom-4 right-[30rem] z-1"
           >
             <div class="bg-blue-500 dark:bg-blue-400 rounded-lg px-3 py-2 text-xs font-bold uppercase text-white transition duration-200">
               Reviews!
             </div>
-          </Link>
+          </Link> */}
         </div>
       </div>
     </div>
